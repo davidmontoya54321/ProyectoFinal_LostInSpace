@@ -1,4 +1,4 @@
-//NEURAL NETWORK MACHINE: PARA EL RECONOCIMIENTO DE LA ACCIONES HECHAS CON
+/*//NEURAL NETWORK MACHINE: PARA EL RECONOCIMIENTO DE LA ACCIONES HECHAS CON
 //LAS MANOS
 
 let model;
@@ -45,7 +45,7 @@ function setup() {
     metadata: "MODELO/model_meta.json",
     weights: "MODELO/model.weights.bin",
   };
-  model.load(modelInfo, modelLoaded);*/
+  model.load(modelInfo, modelLoaded);
   background(255);
 }
 
@@ -153,3 +153,4 @@ function gotResults(error, results) {
   wave.freq(results[0].value);
   env.play();
 }
+*/
